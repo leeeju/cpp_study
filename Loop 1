@@ -11,7 +11,7 @@ int main(void) {
 	printf("안녕 %d\n", i++);
 	printf("안녕 %d\n", i++);
 
-	// 반복문의 종류 : [for] [while] [do while] 
+	// 반복문의 3 종류 : [for] [while] [do while] 
 	// for[ 선언, 조건, 증감]
 
 
