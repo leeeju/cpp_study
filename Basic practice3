@@ -1,19 +1,19 @@
-int main(void) {
+int main(void) {     // 경찰서 조서 출력하기
 
 	char name[256];
 	printf("이름이 뭔가요?");
-	scanf_s("%s", name, sizeof(name));
+	scanf_s("%s", name, sizeof(name)); // 이름을 출력하기 위해서 sizeof 지료형의 크기를 구한다 (name)
 
 	int age;
-	printf("나이");
-	scanf_s("%d", &age);
+	printf("나이는 얼마 인가요?");
+	scanf_s("%d", &age);            // 입력값은 age에 저장 한다.
 
 	float weight;
-	printf("몸무게");
+	printf("몸무게는 몇이냐?");
 	scanf_s("%f", &weight);
 
 	double height;
-	printf("키는 몇이냐");
+	printf("키는 몇이냐?");
 	scanf_s("%lf", &height);
 
 	char what[256];
@@ -30,3 +30,5 @@ int main(void) {
 
 	return 0;
 }
+
+2021.04.29
