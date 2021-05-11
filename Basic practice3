@@ -1,0 +1,32 @@
+int main(void) {
+
+	char name[256];
+	printf("이름이 뭔가요?");
+	scanf_s("%s", name, sizeof(name));
+
+	int age;
+	printf("나이");
+	scanf_s("%d", &age);
+
+	float weight;
+	printf("몸무게");
+	scanf_s("%f", &weight);
+
+	double height;
+	printf("키는 몇이냐");
+	scanf_s("%lf", &height);
+
+	char what[256];
+	printf("죄가 뭐냐");
+	scanf_s("%s", what, sizeof(what));
+
+	// 출력내용
+	printf("\n\n --- 정보 --- \n\n");
+	printf("이름   : %s\n", name);
+	printf("나이   : %d\n", age);
+	printf("몸무게 : %.2f\n", weight);
+	printf("키     : $.2lf\n", height);
+	printf("범죄   : %s\n", what);
+
+	return 0;
+}
