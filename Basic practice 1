@@ -1,0 +1,9 @@
+ int main() {
+	
+	int aaa = 10; // 정수 10을 aaa에 넣어라 // 정수형 변수 입력
+	printf("%d \n", aaa);
+    aaa = 13; 
+	printf("%d \n", aaa);
+	return 0;
+  
+}
