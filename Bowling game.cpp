@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* int main (void)
+ int main (void)
 {
     int frame[10][3] = {0}; //0번지는 안쓰기로 함 1프레임은 frame[1]에 저장
     int frame10[4] = {0};  //이하 동문
