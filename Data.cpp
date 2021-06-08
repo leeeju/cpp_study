@@ -24,7 +24,7 @@ int main(void)
     return 0;
 }
 
-2021.05.17 함수에 포인터를 사용하는 이유 3번 구조체 자료를 인자로 전달할때 오버해드를 줄이기 위해
+2021.05.17 
 #ifndef DATA_H
 #define DATA_H
 
